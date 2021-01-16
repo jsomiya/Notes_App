@@ -1,8 +1,12 @@
 Note_Taking_App
 
 Clone and run:
-//for installing all the relevant packages
-pip install -r requirements.txt
+
+pip install -r requirements.txt    //for installing relevant packages
+python manage.py makemigrations   //for creating the model
+python manage.py migrate         //for applying the migration
+python mange.py runserver       //to run the server
+
 
 E.g. of a Note: 
 title : Assignment
