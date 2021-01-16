@@ -11,10 +11,13 @@ python manage.py migrate         //for applying the migration
 python mange.py runserver       //to run the server
 
 
+
 E.g. of a Note: 
 title : Assignment
 content : Note_Taking_App using Django and DRF
 slug : assignment
+
+
 
 URL :
 1. New note -> http://localhost:8000/create/ 
