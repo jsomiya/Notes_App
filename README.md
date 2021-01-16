@@ -3,8 +3,11 @@ Note_Taking_App
 Clone and run:
 
 pip install -r requirements.txt    //for installing relevant packages
+
 python manage.py makemigrations   //for creating the model
+
 python manage.py migrate         //for applying the migration
+
 python mange.py runserver       //to run the server
 
 
